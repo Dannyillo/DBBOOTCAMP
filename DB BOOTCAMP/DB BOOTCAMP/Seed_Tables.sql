@@ -24,12 +24,12 @@ insert into Users (UserName, Birthday, RoleID) values ('Cid','7/30/1978',1);
 insert into Users (UserName, Birthday, RoleID) values ('Vincent','2/21/1989',1);
 
 -- Insert UserRoles
-insert into UserRoles (UserID) values (1)
-insert into UserRoles (UserID) values (2)
-insert into UserRoles (UserID) values (3)
-insert into UserRoles (UserID) values (4)
-insert into UserRoles (UserID) values (5)
-insert into UserRoles (UserID) values (6)
+insert into UserRoles (RoleID,UserID) values (1,1)
+insert into UserRoles (RoleID,UserID) values (2,3)
+insert into UserRoles (RoleID,UserID) values (3,4)
+insert into UserRoles (RoleID,UserID) values (4,2)
+insert into UserRoles (RoleID,UserID) values (5,5)
+insert into UserRoles (RoleID,UserID) values (4,6)
 
 --Insert Roles
 insert into Roles (RoleName) values ('Owner')
